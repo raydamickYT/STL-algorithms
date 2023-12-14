@@ -38,7 +38,7 @@ int main()
     std::vector<double> numbers{10, 324422, 6, -23, 234.5, 654.1, 3.1242, -9.23, 635};
     NumberProcessor::RemoveNegativeNumbers(numbers);
 
-    //hij zegt dat komma getallen even zijn. omdat ik niet echt uit kon vogelen hoe ik het kon laten checken of iets even of oneven is.
+    //hij zegt dat komma getallen even zijn. ik weet niet waarom hij niet het hele getal pakt.
     NumberProcessor::PrintEvenOrOdd(numbers);
 
     double sum, avg, product;
